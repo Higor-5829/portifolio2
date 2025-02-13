@@ -5,6 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.cs">
     <title>Portifólio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            background-image: url('imagens/logo.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        p {
+            border: 1px solid red;
+        }
+
+        h1 {
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
 
@@ -36,7 +61,7 @@
                 <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laboriosam est velit voluptate architecto tenetur.</p>
             </div>
 
-            <div class="solicitacoes">
+            <div class="socialIcons">
                 <a href="#">Twitter</a>
                 <a href="#">Facebook</a>
                 <a href="#">Linkedin</a>
