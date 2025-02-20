@@ -3,59 +3,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.cs">
     <title>Portifólio</title>
 
-    <style>
-
-        :root {
-            font-size: 16px;
-        }
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-
-        body {
-            /* background-image: url('imagens/logo.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            background-attachment: fixed; */
-
-            border: 10px solid red;
-            width: 100vw;
-            height: 100vh;
-            overflow-x: hidden;
-        }
-
-        p {
-            border: 10px solid blue;
-            font-size: 3rem;
-        }
-
-        h1 {
-            background-color: yellow;
-            display: block;
-        }
-
-        h1:hover {
-            background-color: red;
-        }
-
-        .logo {
-            position: fixed;
-            bottom: calc(100vh/2);
-            right: 0;
-        }
-
-        #interface {
-
-        }
-
-    </style>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 
