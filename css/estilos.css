@@ -14,6 +14,7 @@
 #interface {
     display: block;
     width: 100vw;
+    height: 100vh;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -21,6 +22,43 @@
 #interface header.cabecalho {
     display: block;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: url(../imagens/hero-bg.png);
+    color: #fafafa;
+}
+
+#interface .cabecalho .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#interface .cabecalho .logo {
+    display: block;
+    width: 150px;
+}
+
+#interface .cabecalho .logo img {
+    display: block;
+    width: 100%;
+}
+
+#interface .cabecalho .menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#interface .cabecalho .menu li {
+    display: block;
+    margin: 0 1rem;
+}
+
+#interface .cabecalho .menu li a {
+    display: block;
+    color: #fafafa;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
 }
