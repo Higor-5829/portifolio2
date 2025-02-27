@@ -31,10 +31,11 @@
             </nav>
 
             <div class="titles">
-                <h1 class="titulo">Entregando serviços de qualidade</h1>
-                <h1 class="subtitulo">Soluções de TI</h1>
-
-                <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laboriosam est velit voluptate architecto tenetur.</p>
+                <div class="container-titles">
+                    <h1 class="titulo">Entregando serviços de qualidade</h1>
+                    <h1 class="subtitulo">Soluções de TI</h1>
+                    <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laboriosam est velit voluptate architecto tenetur.</p>
+                </div>
             </div>
 
             <div class="socialIcons">
