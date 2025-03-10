@@ -13,6 +13,11 @@
     src: url('../fonts/Oswald/Oswald-Regular.ttf');
 }
 
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -101,11 +106,38 @@
 }
 
 #interface .cabecalho .titles .container-titles {
-    border: 1px solid yellow;
-    width: 65%;
+    width: 60%;
     margin: 0 0 0 auto;
 }
 
 #interface .cabecalho .titles .container-titles h1 {
-    font-family: Roboto;
+    font-family: Montserrat;
+}
+
+#interface .cabecalho .titles .container-titles h1.titulo {
+    font-size: 2.5rem;
+}
+
+#interface .cabecalho .titles .container-titles h1.subtitulo {
+    color: #9941bf;
+    text-shadow: 0 0 20px rgba(255, 255, 255, .3);
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+#interface .cabecalho .titles .container-titles p.paragrafo {
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+#interface .cabecalho .titles .socialIcons {
+    width: 60%;
+    margin: 2rem 0 0 auto;
+}
+
+#interface .cabecalho .titles .socialIcons a {
+    color: #9941bf;
+    padding: .5rem;
+    font-size: 1.2rem;
 }

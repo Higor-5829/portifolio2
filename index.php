@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifólio</title>
 
+    <link rel="stylesheet" href="tools/fontawesome/css/all.css">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
@@ -32,17 +33,17 @@
 
             <div class="titles">
                 <div class="container-titles">
-                    <h1 class="titulo">Entregando serviços de qualidade</h1>
+                    <h1 class="titulo">Entregando Serviços de Qualidade</h1>
                     <h1 class="subtitulo">Soluções de TI</h1>
-                    <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laboriosam est velit voluptate architecto tenetur.</p>
+                    <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro in sed et necessitatibus obcaecati debitis.</p>
                 </div>
-            </div>
 
-            <div class="socialIcons">
-                <a href="#">Twitter</a>
-                <a href="#">Facebook</a>
-                <a href="#">Linkedin</a>
-                <a href="#">Instagram</a>
+                <div class="socialIcons">
+                    <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" title="Visite nosso Linkedin"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
             </div>
 
         </header>
