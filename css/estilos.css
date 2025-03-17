@@ -1,6 +1,11 @@
 :root {
     font-size: 12px;
     font-family: Verdana, sans-serif;
+
+    --azul-padrao: #3c6aa6;
+    --rosa-padrao: #9941bf;
+    --branco-padrao: #fafafa;
+    --marrom-padrao: #a66b49;
 }
 
 @font-face {
@@ -32,7 +37,7 @@
     height: 100vh;
     min-height: 100vh;
     overflow-x: hidden;
-    background-color: #fafafa;
+    background-color: var(--branco-padrao);
 }
 
 #interface header.cabecalho {
@@ -42,7 +47,7 @@
     height: 100%;
     background-image: url(../imagens/hero-bg.png);
     background-size: cover;
-    color: #fafafa;
+    color: var(--branco-padrao);
 }
 
 #interface .cabecalho .menu {
@@ -76,7 +81,7 @@
 
 #interface .cabecalho .menu li a {
     display: block;
-    color: #fafafa;
+    color: var(--branco-padrao);
     font-family: Oswald;
     font-size: 2rem;
     padding: .5rem 1rem;
@@ -88,7 +93,7 @@
     content: '';
     width: 0;
     height: 4px;
-    background-color: #9941bf;
+    background-color: var(--rosa-padrao);
     border-radius: 1px;
     margin-top: .1rem;
     transition: width .2s ease;
@@ -121,7 +126,7 @@
 }
 
 #interface .cabecalho .titles .container-titles h1.subtitulo {
-    color: #9941bf;
+    color: var(--rosa-padrao);
     text-shadow: 0 0 20px rgba(255, 255, 255, .3);
     font-size: 2.2rem;
     margin-bottom: 1rem;
@@ -139,7 +144,7 @@
 }
 
 #interface .cabecalho .titles .socialIcons a {
-    color: #9941bf;
+    color: var(--rosa-padrao);
     padding: .5rem;
     font-size: 1.5rem;
 }
@@ -157,7 +162,7 @@
     flex-wrap: wrap;
     width: 70%;
     margin: 0 auto;
-    padding: 10rem 0;
+    padding: 10rem 0 0 0;
 }
 
 #interface #corpo .servicos article {
@@ -179,7 +184,7 @@
     display: block;
     text-align: center;
     font-family: Roboto;
-    color: #3c6aa6;
+    color: var(--azul-padrao);
     font-weight: normal;
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -190,4 +195,51 @@
     text-align: center;
     color: #666;
     line-height: 1.5;
+}
+
+#interface #corpo .portifolio {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10rem 0 0 0;
+}
+
+#interface #corpo .portifolio .title-portifolio {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: Roboto;
+    color: var(--azul-padrao);
+    margin-bottom: 1rem;
+}
+
+#interface #corpo .portifolio .sub-title {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--marrom-padrao);
+}
+
+#interface #corpo .portifolio .container-imagens {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+#interface #corpo .portifolio .container-imagens .img {
+    width: 30%;
+    height: 180px;
+    margin-top: 1.5rem;
+    border-radius: .75rem;
+    overflow: hidden;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .4);
+    background-size: 100%;
+    background-position: center center;
+    transition: all .2s ease;
+}
+
+#interface #corpo .portifolio .container-imagens .img:hover {
+    background-size: 120%;
 }
