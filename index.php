@@ -181,60 +181,66 @@
 
         <footer id="rodape">
 
-            <div class="container-rodape">
+            <div class="sombreamento">
 
-                <section class="sobre">
+                <div class="container-rodape">
 
-                    <img src="imagens/logo.png" alt="Logo">
+                    <section class="item-rodape sobre">
 
-                    <p class="txt-sobre">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, voluptatibus provident ullam architecto rem, officiis veniam beatae quisquam odit odio possimus enim impedit pariatur perspiciatis?</p>
+                        <img src="imagens/logo.png" alt="Logo">
 
-                    <h4 class="title-sobre">Siga-nos</h4>
+                        <p class="txt-sobre">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, voluptatibus provident ullam architecto rem, officiis veniam beatae quisquam odit odio</p>
 
-                    <div class="social-icons">                  
-                        <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
-                        <a href="#" title="Visite nosso Linkedin"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
-                    </div>
+                        <h4 class="title-sobre">Siga-nos</h4>
 
-                </section>
+                        <div class="social-icons">                  
+                            <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" title="Visite nosso Linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
 
-                <section class="servicos">
+                    </section>
 
-                    <h4 class="title-servicos">Serviços</h4>
+                    <section class="item-rodape servicos">
 
-                    <ul>
-                        <li><a href="#">Desenvolvimento WEB</a></li>
-                        <li><a href="#">WEB Hosting</a></li>
-                        <li><a href="#">Mídias Sociais</a></li>
-                        <li><a href="#">Aplicações SEO</a></li>
-                        <li><a href="#">Computação em Nuvem</a></li>
-                        <li><a href="#">Segurança de Dados</a></li>
-                    </ul>
+                        <h4 class="title-servicos">Serviços</h4>
 
-                </section>
+                        <ul>
+                            <li><a href="#">Desenvolvimento WEB</a></li>
+                            <li><a href="#">WEB Hosting</a></li>
+                            <li><a href="#">Mídias Sociais</a></li>
+                            <li><a href="#">Aplicações SEO</a></li>
+                            <li><a href="#">Computação em Nuvem</a></li>
+                            <li><a href="#">Segurança de Dados</a></li>
+                        </ul>
 
-                <section class="contato">
+                    </section>
 
-                    <h4 class="title-contato">Contatos</h4>  
+                    <section class="item-rodape contato">
 
-                    <p class="txt-contatos">Rua das Margaridas, S/Nº</p>
-                    <p class="txt-contatos">33 9 8400-9999</p>
-                    <p class="txt-contatos">contato@meusite.com.br</p>
+                        <h4 class="title-contato">Contatos</h4>  
 
-                    <h4 class="title-contato">Newsletter</h4>
+                        <div class="container-contato">
+                            <p class="txt-contatos">Rua das Margaridas, S/Nº</p>
+                            <p class="txt-contatos">33 9 8400-9999</p>
+                            <p class="txt-contatos">contato@meusite.com.br</p>
+                        </div>
 
-                    <form action="" method="get">
-                        <input type="email" name="news-email" id="news-email" placeholder="E-Mail" />
-                        <button type="submit"><i class="fa-brands fa-telegram"></i></button>
-                    </form>
+                        <h4 class="title-contato">Newsletter</h4>
 
-                </section>
+                        <form action="" method="get">
+                            <input type="email" name="news-email" id="news-email" placeholder="E-Mail" />
+                            <button type="submit"><i class="fab fa-telegram"></i></button>
+                        </form>
+
+                    </section>
+
+                </div>
+
+                <p class="txt-creditos">Higor Assumpção Horstt &copy; 2025</p>
 
             </div>
-
-            <p class="txt-creditos">Higor Assumpção Horstt &copy; 2025</p>
 
         </footer>
 
